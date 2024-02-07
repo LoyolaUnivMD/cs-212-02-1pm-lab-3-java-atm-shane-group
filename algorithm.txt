@@ -1,1 +1,29 @@
+1) Initialzie the ATM balance to $212.90
+2) Prompt the user to enter their name
+3) Store the user’s name
+4) Enter a loop for the main menu
+  a) Display a welcome message with the user’s name
+  b) Display menu options (Deposit, withdraw, check balance, and exit
+  c) Prompt the user to choose an option from 1-4
+5) Use a switch statement to handle the user's choice
+  a) If the user chooses deposit (option 1):
+    i) Prompt the user to enter a deposit amount
+   ii) If the amount is positive update the balance and display the new balance
+  iii) If the amount is not positive display an error message
+  b) If the user chooses Withdrawl (option 2):
+    i) Prompt the user to enter a withdrawal amount
+   ii) If the amount is positive and there are sufficient funds, update and display
+the new balance
+  iii) If the amount is positive display an error message
+   iv) If there are insufficient funds, display an error message
+  c) If the user chooses to check the balance (option 3):
+    i) Display the current balance
+  d) If the user chooses to leave (option 4):
+    i) Prompt the user if they want a receipt to be printed or emailed
+   ii) Display the total amount disposited/withdrawn and a thank you message
+  iii) Provide a receipt based on the users choice (print, email, or none)
+6) Validate user input for menu options. If the input is not 1-4, display an error message
+7) Validate deposit and withdrawal amounts; make sure they are positive 
+8) Make sure withdrawal amounts do not exceed the current balance
+9) Continue the main loop until the user chooses to leave
 
